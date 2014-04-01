@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine off
+</IfModule>
+AuthName "MySQLDumper"
+AuthType Basic
+AuthUserFile "/home/highland/public_html/tbyci.com/msd/.htpasswd"
+require valid-user
